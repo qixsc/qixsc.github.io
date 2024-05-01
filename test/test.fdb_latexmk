@@ -1,0 +1,6 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "test.xdv" "test.pdf" "test" 0 -1
+  "test.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "test.pdf"
+  (rewritten before read)

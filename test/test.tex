@@ -1,0 +1,125 @@
+% --- LaTeX CV Template - S. Venkatraman ---
+
+% Set document class and font size
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Package imports
+\usepackage{setspace, longtable, graphicx, hyphenat, hyperref, fancyhdr, ifthen, enumitem, amsmath, setspace, bookman}
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=0.8in, right=0.8in, bottom=1in, top=1in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.15}
+
+% --- Page formatting ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+% Set font to Libertine, including math support
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% --- Document starts here ---
+
+\begin{document}
+
+% Name and date of last update to this document
+\noindent{\Huge{\ \ Chang, Yung-Hsuan}
+% \hfill{\it\footnotesize Updated \today}
+}
+
+% --- Contact information and other items ---
+
+\vspace{0.5cm} 
+\noindent\quad\ \textbf{Email}: \href{mailto:eiken0525@gmail.com}{eiken0525@gmail.com}
+
+% --- Start the two-column table storing the main content ---
+
+% Set spacing between columns
+\setlength{\tabcolsep}{8pt}
+
+% Set the width of each column
+\begin{longtable}{p{0.8in}p{5.5in}}
+
+% --- Section: Research interests ---
+
+% \nohyphens{\color{OliveGreen}{Research interests}}
+% & Your favorite topic, another topic, another topic, another topic, another topic \\
+% & \\
+
+% --- Section: Education ---
+
+\color{OliveGreen}{Education} 
+& \textbf{National Yang Ming Chiao Tung University} \hfill Hsinchu City, Taiwan \\ 
+& Applied Mathematics \hfill August, 2022 -- Present \\
+& \\
+
+& \textbf{National Hsinchu Senior High School} \hfill Hsinchu City, Taiwan \\
+& High School Diploma \hfill August, 2019 -- June, 2022\\
+& \\
+
+% --- Uncomment the next few lines if you want to include some courses ---
+%& \textbf{Selected coursework}
+%\begin{itemize}[noitemsep,leftmargin=*]
+%\item \underline{Relevant subject 1}: Course 1, Course 2, Course 3, Course 4
+%\item \underline{Relevant subject 2}: Course 1, Course 2, Course 3, Course 4
+%\end{itemize} \\
+
+% --- Section: Awards, scholarships, etc. ---
+% --- Note: section title is spread over two lines ---
+
+{\color{OliveGreen}{Honors}} 
+& \textbf{Mathematics Presidential Award} \hfill September, 2023\\
+& Awarded by the Department of Applied Mathematics, National Yang Ming Chiao Tung University for my study in mathematics in the 2nd semester of the 2022 Academic Year.\\
+& \\
+& \textbf{Honor Student} \hfill May, 2023\\
+& Awarded by National Yang Ming Chiao Tung University for my study in the 1st semester of the 2022 Academic Year. \\
+& \\
+& \textbf{Mathematics Presidential Award} \hfill Feburary, 2023\\
+& Awarded by the Department of Applied Mathematics, National Yang Ming Chiao Tung University for my study in mathematics in the 1st semester of the 2022 Academic Year.\\
+& \\
+& \textbf{Outstanding Performance Award} \hfill June, 2022\\
+& Awarded by the Hsinchu City Government for my study during high school.\\
+& \\
+
+% --- Section: Teaching experience ---
+
+{\color{OliveGreen}{Work}} 
+& \textbf{Teaching Assistant}  \hfill February, 2024 -- June, 2024 \\
+{\color{OliveGreen}{Experience}} 
+& Department of Applied Mathematics, National Yang Ming Chiao Tung University\\
+& GECS10002 (564001) Calculus A (II) under the guidance of Prof. Yuki Chino. \\
+& \\
+
+& \textbf{Teaching Assistant} \hfill September, 2023 -- December, 2023 \\
+& Department of Applied Mathematics, National Yang Ming Chiao Tung University\\
+& GECS10001 (564001) Calculus A (I) under the guidance of Prof. Yuki Chino.\\
+& \\
+
+& \textbf{Assistant} \hfill September, 2020 -- June, 2022 \\
+& Office of Student Affairs, National Hsinchu Senior High School\\
+& \\
+
+% --- Section: Various skills (programming, software, languages, etc.) ---
+
+{\color{OliveGreen}{Skills}} 
+& \textbf{Programming}\\
+& Familiar with C++ and Python. \\
+& \\
+
+& \textbf{Languages} \\
+& Mandarin, Japanese (CEFR B1), and English (CEFR C1). \\
+
+% --- End of CV! ---
+
+\end{longtable}
+\end{document}
