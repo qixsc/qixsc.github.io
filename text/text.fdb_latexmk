@@ -1,11 +1,19 @@
 # Fdb version 4
-["xdvipdfmx"] 0 "text.xdv" "text.pdf" "text" 0 -1
-  "text.xdv" 0 -1 0 "xelatex"
+["xdvipdfmx"] 1714557842.23669 "text.xdv" "text.pdf" "text" 1714557843.01024 0
+  "text.xdv" 1714557841 1216 c56a0a5d20108239026bd9d1fe7e6e38 "xelatex"
   (generated)
   "text.pdf"
   (rewritten before read)
-["xelatex"] 1714557460.9082 "c:/Users/9ryan/OneDrive - 國立陽明交通大學/個人網站/qixsc.github.io/text/text.tex" "text.xdv" "text" 1714557463.16513 1
+["xelatex"] 1714557839.17092 "c:/Users/9ryan/OneDrive - 國立陽明交通大學/個人網站/qixsc.github.io/text/text.tex" "text.xdv" "text" 1714557843.00237 0
   "C:/Users/9ryan/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1705570049 37545936 69fc929dac59ca2f3a8f7bbc5704166a ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136743454 2172 fd0c924230362ff848a33632ed45dc23 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmri7t.tfm" 1136743454 2288 f478fc8fed18759effb59f3dad7f3084 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/zptmcm7m.tfm" 1136743454 2232 db256afffc8202da192b4641df14d602 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/zptmcm7t.tfm" 1136743454 2172 1d00c2a0d10f23031be62329457a870c ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/zptmcm7v.tfm" 1136743454 1032 20febbd0f0c9a48eb78616f897008286 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/zptmcm7y.tfm" 1136743454 1520 ad7b3c1a480a03b3e41b5fbb13d938f2 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136765053 520 4889cce2180234b97cad636b6039c722 ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/amscls/amsthm.sty" 1591023609 12594 0d51ac3a545aaaa555021326ff22a6cc ""
@@ -39,6 +47,11 @@
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xparse.sty" 1696961617 9327 c30c00c0072edba199ede5889311aaa9 ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xtemplate/xtemplate.sty" 1696961617 49660 5c0feaa99f26b13a04a462a06cf3a294 ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/mathptmx.sty" 1585926771 4760 6e41de2b7a83dfa5d2c4b0a2fe01f046 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/omlztmcm.fd" 1585253778 429 12564a37a279e4e0b533cdf5e03eeb7c ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/omsztmcm.fd" 1585253778 365 f4ce75d394e7d9ac12ca7aac4045ed77 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/omxztmcm.fd" 1585253778 346 c8cddcc90b6f567b28408eb374773c9c ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
+  "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ztmcm.fd" 1585253778 346 aee7226812ba4138ac67a018466b488d ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1700599895 13231 2c742011581e2bf297e33520567d9464 ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/tools/enumerate.sty" 1700599895 3468 0ef513f22d965f96b06adb5cff671cd7 ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1700599895 32515 51caec75eda9c8890135f12f1a4eddc3 ""
@@ -47,9 +60,9 @@
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/xelatex/xecjk/xeCJK.cfg" 1659726270 408 7369c27beaa819c5f46de3795b22ee3e ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/xelatex/xecjk/xeCJK.sty" 1659726270 183137 ed372550124703b2b73cbcc0b47cb20f ""
   "C:/Users/9ryan/AppData/Local/Programs/MiKTeX/tex/xelatex/xecjk/xeCJKfntef.sty" 1659726270 39577 b470f8a1dbecc9c45c9bf05ca7db9188 ""
-  "c:/Users/9ryan/OneDrive - 國立陽明交通大學/個人網站/qixsc.github.io/text/text.tex" 1714557450 697 284ad8020f50b088d85f063d09604e44 ""
-  "text.aux" 1714557462 8 a94a2480d3289e625eea47cd1b285758 "xelatex"
-  "text.tex" 1714557450 697 284ad8020f50b088d85f063d09604e44 ""
+  "c:/Users/9ryan/OneDrive - 國立陽明交通大學/個人網站/qixsc.github.io/text/text.tex" 1714557834 785 8478709a163c7ed15e84eb6446c10f10 ""
+  "text.aux" 1714557841 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "text.tex" 1714557834 785 8478709a163c7ed15e84eb6446c10f10 ""
   (generated)
   "text.aux"
   "text.log"
