@@ -14,7 +14,7 @@
 body {
   margin: 0;
   padding: 1.5rem 2rem 4rem;
-  font-family: "Noto Sans TC", "Noto Sans TC", "Noto Sans CJK TC", "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: "Noto Sans TC", "Noto Sans TC", "Noto Sans CJK TC", "Noto Sans", "New Computer Modern", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.58;
   color: var(--fg);
@@ -121,6 +121,8 @@ h1.tree-title { font-size: 1.5rem; }
 h2.tree-title { font-size: 1.22rem; }
 h3.tree-title { font-size: 1.04rem; }
 h4.tree-title { font-size: 0.98rem; }
+h5.tree-title { font-size: 0.92rem; }
+h6.tree-title { font-size: 0.88rem; }
 
 .taxon {
   font-weight: 700;

@@ -1,0 +1,12 @@
+<svg class="typst-doc" viewBox="0 0 8.630000000000003 15.64" width="8.630000000000003pt" height="15.64pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-text" transform="matrix(1 0 0 -1 0.5 11.64)">
+            <use xlink:href="#gEFCC63616F6FE4398BEE09EE1EC623C6" x="0" y="0" fill="#1f2328" fill-rule="nonzero"/>
+        </g>
+    </g>
+    <defs id="glyph">
+        <symbol id="gEFCC63616F6FE4398BEE09EE1EC623C6" overflow="visible">
+            <path d="M 0 0m 0.37800002 0 l 2.254 10.64 h 1.246 l -0.90999985 -4.228 q -0.23800015 -1.1199999 -0.4130001 -1.7290001 q -0.17499995 -0.6089997 -0.24499989 -0.80500007 h 0.027999878 l 3.556 3.6260002 h 1.4560003 l -3.2200003 -3.2200003 l 2.0019999 -4.284 h -1.3579998 l -1.582 3.5140002 l -1.0080001 -0.7980001 l -0.55999994 -2.716 h -1.246 Z "/>
+        </symbol>
+    </defs>
+</svg>

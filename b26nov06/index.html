@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distributions and Tempered Distributions [b26nov06] — Forester-Typst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="top-nav">
+    <a class="home-link" href="../index/index.html">&laquo; Home</a>
+  </header>
+  <div class="forest-layout">
+    <main class="forest-main">
+      <section class="block root-tree" id="tree-b26nov06">
+  <header class="tree-header">
+  <h1 class="tree-title"><span class="taxon">Blogs.</span> Distributions and Tempered Distributions <a class="slug" href="../b26nov06/index.html" title="Permanent link to [b26nov06]">[b26nov06]</a></h1>
+  <div class="metadata"><ul><li class="meta-item date">2026-11-06</li><li class="meta-item date">2026-11-07</li><li class="meta-item author"><a class="author-link" href="../qxhuang/index.html" data-ref="qxhuang">Qi-Xiang Huang</a></li><li class="meta-item tags"><span class="meta-tag">#harmonic analysis</span></li></ul></div>
+</header>
+  <div class="tree-body">
+<p>Let <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-f644e2ea7f7777e5.svg" alt="scr(C)^infinity (RR^n)"></span> denote the space of functions from <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-1f9caedef34700e4.svg" alt="RR^n"></span> to <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-1ad84d15f7401e2a.svg" alt="CC"></span> that is differentiable for all degrees, and let <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-62827cb102eeac78.svg" alt="scr(C)^infinity_0 (RR^n)"></span> be the functions that in <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-f644e2ea7f7777e5.svg" alt="scr(C)^infinity (RR^n)"></span> with compact support.</p>
+<section class="block subtree depth-2" id="tree-schwartz-class--schwartz-space">
+  <details open>
+    <summary><header class="tree-header">
+  <h2 class="tree-title"><span class="taxon">Definition.</span> Schwartz Class (Schwartz Space)</h2>
+  
+</header></summary>
+    <div class="tree-body">
+<p>The Schwartz class collects the functions that decrease rapidly (faster than any polynomial.) First define the Schwartz semi-norm on <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-0bbc07c79198bb3c.svg" alt="f in scr(C)^infinity (RR^n)"></span> that</p>
+<div class="math-display"><img class="math-display-svg" src="../assets/eq-b8f5a04b232372c2.svg" alt="norm(f)_(alpha, beta) = sup_(x in RR^n) abs(x^alpha partial^beta f(x)) quad &quot;for all multi-indices&quot; alpha, beta in NN^n."></div>
+<p>And then the Schwarz Class <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-ed7e29a97d11bd35.svg" alt="scr(S) (RR^n)"></span> is the set that have finite supremum over all multi-indices, that is</p>
+<div class="math-display"><img class="math-display-svg" src="../assets/eq-e27c6b5ad64a5300.svg" alt="scr(S) (RR^n) = {f in scr(C)^infinity (RR^n): norm(f)_(alpha, beta) &lt; infinity quad forall alpha, beta in NN^n}."></div>
+<p>An important property of Schwartz class is that the fourier transform of a function in Schwartz class is still in Schwartz class.</p>
+    </div>
+  </details>
+</section>
+<section class="block subtree depth-2" id="tree-convergence-in-the-spaces">
+  <details open>
+    <summary><header class="tree-header">
+  <h2 class="tree-title"><span class="taxon">Definition.</span> Convergence in the Spaces</h2>
+  
+</header></summary>
+    <div class="tree-body">
+<p>First we have the inclusion of the spaces</p>
+<div class="math-display"><img class="math-display-svg" src="../assets/eq-2bc5b05afce1070b.svg" alt="scr(C)^infinity (RR^n) subset.eq scr(S) (RR^n) subset.eq scr(C)^infinity_0 (RR^n)."></div>
+<p>We say that</p>
+<div class="math-display"><img class="math-display-svg" src="../assets/eq-8713ab91d29ce34f.svg" alt="f_k -&gt; f in scr(C)^infinity &lt;==&gt; &amp; f_k, f in scr(C)^infinity &quot;and&quot; lim_(k -&gt; infinity) sup_(abs(x) &lt;= N) abs(partial^alpha (f_k - f) (x)) = 0\
+&amp; forall alpha &quot;multi-indices and all&quot; N = 1, 2, dots.\
+f_k -&gt; f in scr(S)^infinity &lt;==&gt; &amp; f_k, f in scr(S)^infinity &quot;and&quot; lim_(k -&gt; infinity) sup_(x in RR^n) abs(x^alpha partial^beta (f_k - f) (x)) = 0\
+&amp; forall alpha, beta &quot;multi-indices.&quot;\
+f_k -&gt; f in scr(C)_0^infinity &lt;==&gt; &amp; f_k, f in scr(C)_0^infinity, supp(f_k) subset.eq B quad forall k, B &quot;compact&quot;\
+&amp; &quot;and&quot; lim_(k -&gt; infinity) norm(partial^alpha (f_k - f))_(L^infinity) = 0 quad forall alpha &quot;multi-indices&quot;."></div>
+    </div>
+  </details>
+</section>
+<section class="block subtree depth-2" id="tree-distributions">
+  <details open>
+    <summary><header class="tree-header">
+  <h2 class="tree-title"><span class="taxon">Definition.</span> Distributions</h2>
+  
+</header></summary>
+    <div class="tree-body">
+<p>We define the dual space of the spaces with special names,</p>
+<ul><li>distributions: <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-4f029d2e2fc07a86.svg" alt="scr(D)' (RR^n) = (scr(C)^infinity_0 (RR^n))',"></span></li><li>tempered distributions: <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-5679717b1c56b20a.svg" alt="scr(S)' (RR^n) = (scr(S) (RR^n))',"></span></li><li>distributions with compact support: <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-3a78c75c25fffc80.svg" alt="scr(E)' (RR^n) = (scr(C)^infinity (RR^n))'."></span></li></ul>
+<p>And we equip the weak topology on these spaces.</p>
+<section class="block subtree depth-3" id="tree-tempered-distribution">
+  <details open>
+    <summary><header class="tree-header">
+  <h3 class="tree-title"><span class="taxon">Example.</span> Tempered Distribution</h3>
+  
+</header></summary>
+    <div class="tree-body">
+<p>Every function that satisfies <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-acdff471ffae7776.svg" alt="abs(g(x)) &lt;= C (1+abs(x))^k"></span> for some real number <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-c92fd2ac3b68a263.svg" alt="k"></span> is a tempered distribution. To see this,</p>
+<div class="math-display"><img class="math-display-svg" src="../assets/eq-4a2a3627ea04edaf.svg" alt="L_g (f) = integral_(RR^n) g(x) f(x) dif x &lt;= sup_(x in RR^n) (1+abs(x))^m abs(f(x)) integral_(RR^n) (1+abs(x))^(k-m) dif x,"></div>
+<p>where <span class="math-inline"><img class="math-inline-svg" src="../assets/eq-605f777d5f8d5c37.svg" alt="m &gt; n+k"></span> and the supremum is bounded by a sum of the semi-norms in the Schwartz space.</p>
+    </div>
+  </details>
+</section>
+<p>The reason we need to consider distributions instead otherfunctions.</p>
+    </div>
+  </details>
+</section>
+<section class="block subtree depth-2" id="tree-reference">
+  <details open>
+    <summary><header class="tree-header">
+  <h2 class="tree-title">Reference</h2>
+  
+</header></summary>
+    <div class="tree-body">
+<p>Grafakos, Loukas. Fundamentals of Fourier Analysis. Graduate Texts in Mathematics, Springer Cham, 2024. <a class="ext-link" href="https://doi.org/10.1007/978-3-031-56500-7" target="_blank" rel="noopener">https://doi.org/10.1007/978-3-031-56500-7</a>.</p>
+<p>Grafakos, L. (2014). Classical Fourier Analysis (3rd ed.). Springer New York, NY. <a class="ext-link" href="https://doi.org/10.1007/978-1-4939-1194-3" target="_blank" rel="noopener">https://doi.org/10.1007/978-1-4939-1194-3</a></p>
+    </div>
+  </details>
+</section>
+  </div>
+</section>
+      <footer class="tree-footer"><section class="footer-section backlinks-section">
+  <h4>Backlinks</h4>
+  <div class="related-card">
+  <a class="related-link" href="../blogs/index.html"><strong>Blogs</strong> <span class="slug">[blogs]</span></a>
+  <span class="related-date">2026-11-04</span>
+</div>
+</section></footer>
+    </main>
+    <nav id="toc" class="forest-toc">
+  <div class="toc-heading">Table of Contents</div>
+  <ul class="toc-list"><li><a href="#tree-schwartz-class--schwartz-space"><span class="taxon">Definition.</span> Schwartz Class (Schwartz Space)</a></li><li><a href="#tree-convergence-in-the-spaces"><span class="taxon">Definition.</span> Convergence in the Spaces</a></li><li><a href="#tree-distributions"><span class="taxon">Definition.</span> Distributions</a><ul class="toc-list"><li><a href="#tree-tempered-distribution"><span class="taxon">Example.</span> Tempered Distribution</a></li></ul></li><li><a href="#tree-reference">Reference</a></li></ul>
+</nav>
+  </div>
+</body>
+</html>
